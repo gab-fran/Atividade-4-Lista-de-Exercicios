@@ -6,7 +6,7 @@ Nome: Gabriel Henrique Francisco
 */
 
 console.clear();
-const teclado = require("prompt-sync")();
+const teclado = require('prompt-sync')();
 
 let numUm: number = Number(teclado("Digite o primeiro número: "));
 let numDois: number = Number(teclado("Digite o segundo número: "));    
