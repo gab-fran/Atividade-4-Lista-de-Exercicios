@@ -7,7 +7,7 @@ E-mail: gabriel.h.francisco@aluno.senai.br
 */
 
 console.clear();
-const teclado = require("prompt-sync")();
+const teclado = require('prompt-sync')();
 
 let numMacas: number = parseInt(teclado("Digite o número de maçãs que você quer comprar: "));
 let total: number = 0;
