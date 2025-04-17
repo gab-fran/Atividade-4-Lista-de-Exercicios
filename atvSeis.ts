@@ -11,7 +11,7 @@ Nome Aluno: Gabriel Henrique Francisco
 */
 
 console.clear();
-const teclado = require("prompt-sync")();
+const teclado = require('prompt-sync')();
 
 let notaUm: number = Number(teclado("Digite a primeira nota: "));
 let notaDois: number = Number(teclado("Digite a segunda nota: "));
