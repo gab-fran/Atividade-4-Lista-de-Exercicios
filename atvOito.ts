@@ -9,7 +9,7 @@ E-mail: gabriel.h.francisco@aluno.senai.br
 */
 
 console.clear();
-const teclado = require("prompt-sync")();
+const teclado = require('prompt-sync')();
 
 let anguloUm = parseFloat(teclado("Digite o primeiro ângulo: "));
 let anguloDois = parseFloat(teclado("Digite o segundo ângulo: "));
